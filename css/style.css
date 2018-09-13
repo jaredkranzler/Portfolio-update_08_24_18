@@ -1,9 +1,10 @@
-#background {
+/*#background {
   background-color: #e8fffe;
 }
 html {
     background-color: #e8fffe;
-
+}*/
+#intro{
 }
 .links{
   font-size: 20px;
@@ -49,12 +50,19 @@ nav {
 iframe {
   width: 100%;
 }
-.vid {
-  display: flex;
+.photo {
+
+}
+#photo{
+  background-image: url("https://i.imgur.com/Gts1lKS.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
   justify-content: center;
+  display: flex;
   margin-top: 90px;
-  width: 100%;
   position: absolute;
+  width: 100%;
+  height: 80%;
 }
 
 #aboutme{
@@ -62,12 +70,12 @@ iframe {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 150px;
   z-index: 3;
-  color: white;
+  color: black;
   /*border: solid 1px purple;*/
   font-size: 30px;
-  text-shadow: 0px 3px 10px #AAAFAA80;
+  text-shadow: 0px 2px 2px #AAAFAA;
   margin-bottom: 140px;
   margin-left: -25px;
 }
